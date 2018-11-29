@@ -22,10 +22,8 @@ def decode_multiline_header(s):
 
 def func(i):
     hostname = 'mail.cgws.com'  # gmail的smtp服务器网址
-    username = 'zhengyang'
-    passwd = '2800729'
-#    username = 'lixu'
-#    passwd = 'leon@2014'
+    username = 'lixu'
+    passwd = '~~'
 
     c = IMAPClient(hostname, ssl=False)  # 通过一下方式连接smtp服务器，没有考虑异常情况，详细请参考官方文档
     try:
